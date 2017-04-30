@@ -6,7 +6,6 @@ function setup() {
     createCanvas(size, size);
     angleMode(DEGREES);
     walker = new walker(width/2, height/2);
-    // frameRate(5);
 }
 
 function draw() {

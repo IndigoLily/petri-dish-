@@ -14,7 +14,6 @@ function walker(x, y) {
             test.add(v);
         } while (test.dist(center)*2 > width);
         this.loc.add(v);
-        // console.log(test.dist(center));
     }
     this.draw = function() {
         push();
