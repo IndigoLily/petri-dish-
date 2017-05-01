@@ -1,4 +1,5 @@
 var walker;
+var speed = 100;
 
 function setup() {
     var size = (windowWidth > windowHeight) ? Math.round(windowHeight*.65) : 
@@ -9,7 +10,7 @@ function setup() {
 }
 
 function draw() {
-    for(var i = 0; i < 100; i++) {
+    for(var i = 0; i < speed; i++) {
         walker.move();
         walker.draw();
     }
